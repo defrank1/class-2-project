@@ -13,3 +13,7 @@ $('.button-56').on('click', function() {
   $('.button-58').on('click', function() {
     $('body').css('background-color', 'lightgreen')
   })
+
+  $('.button-60').on('click', function() {
+    $('body').css('background-color', 'orange')
+  })
