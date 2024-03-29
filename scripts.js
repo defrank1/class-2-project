@@ -15,5 +15,5 @@ $('.button-56').on('click', function() {
   })
 
   $('.button-60').on('click', function() {
-    $('body').css('background-color', 'orange')
+    $('body').css('background-color', 'lightorange')
   })
