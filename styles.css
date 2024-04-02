@@ -2,18 +2,10 @@
   font-family: sans-serif;
 }
 
-/* Define styles for the container and right column */
-.container {
-  display: flex;
-}
+/* Define styles for the buttons as a whole... none needed? */
+.metro-buttons {}
 
-.right-column {
-  flex: 1;
-  background-color: lightblue;
-  margin-left: 200px;
-  color: black;
-  font-size: 20px
-}
+/* Define styles for the buttons individually... all of this? */
 
 /* Red Line Button */
 .red-button {
@@ -384,4 +376,18 @@ h3 {
   .silver-button {
     padding: 0 40px;
   }
+}
+
+
+/* Define styles for the container and right column */
+.container {
+  display: flex;
+}
+
+.right-column {
+  flex: 1;
+  background-color: lightblue;
+  margin-left: 200px;
+  color: black;
+  font-size: 20px
 }
