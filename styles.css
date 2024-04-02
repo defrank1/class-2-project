@@ -374,7 +374,7 @@ h3 {
 
 @media (min-width: 768px) {
   .silver-button {
-    padding: 40px;
+    padding: 0 40px;
   }
 }
 
@@ -388,6 +388,7 @@ h3 {
   flex: 1;
   background-color: lightblue;
   margin-left: 200px;
+  padding: 40px
   color: black;
   font-size: 20px
 }
