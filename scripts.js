@@ -4,16 +4,12 @@ $('.red-button').on('click', function () {
   $('body').css('background-color', 'crimson')
 })
 
-$('.blue-button').on('click', function () {
-  $('body').css('background-color', 'dodgerblue')
-})
-
 $('.orange-button').on('click', function () {
   $('body').css('background-color', 'darkorange')
 })
 
-$('.silver-button').on('click', function () {
-  $('body').css('background-color', 'lightslategray')
+$('.blue-button').on('click', function () {
+  $('body').css('background-color', 'dodgerblue')
 })
 
 $('.green-button').on('click', function () {
@@ -24,6 +20,8 @@ $('.yellow-button').on('click', function () {
   $('body').css('background-color', 'gold')
 })
 
-
+$('.silver-button').on('click', function () {
+  $('body').css('background-color', 'lightslategray')
+})
 
 // Any new JSS should be below here:

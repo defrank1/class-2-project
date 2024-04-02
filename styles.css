@@ -2,8 +2,6 @@
   font-family: sans-serif;
 }
 
-
-
 /* Red Line Button */
 .red-button {
   align-items: center;
@@ -63,65 +61,6 @@
   }
 }
 
-/* Blue Line Button */
-.blue-button {
-  align-items: center;
-  background-color: #009CDE;
-  border: 2px solid #111;
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: #ffffff;
-  cursor: pointer;
-  display: flex;
-  font-family: Inter, sans-serif;
-  font-size: 25px;
-  height: 48px;
-  justify-content: center;
-  line-height: 24px;
-  max-width: 100%;
-  padding: 0 25px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.blue-button:after {
-  background-color: #111;
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 48px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
-  z-index: -1;
-}
-
-.blue-button:hover:after {
-  transform: translate(0, 0);
-}
-
-.blue-button:active {
-  background-color: #ffdeda;
-  outline: 0;
-}
-
-.blue-button:hover {
-  outline: 0;
-}
-
-@media (min-width: 768px) {
-  .blue-button {
-    padding: 0 40px;
-  }
-}
-
 /* Orange Line Button */
 .orange-button {
   align-items: center;
@@ -177,6 +116,65 @@
 
 @media (min-width: 768px) {
   .orange-button {
+    padding: 0 40px;
+  }
+}
+
+/* Blue Line Button */
+.blue-button {
+  align-items: center;
+  background-color: #009CDE;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 25px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.blue-button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.blue-button:hover:after {
+  transform: translate(0, 0);
+}
+
+.blue-button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.blue-button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .blue-button {
     padding: 0 40px;
   }
 }
@@ -257,65 +255,6 @@ h3 {
   font-style: italic;
 }
 
-/* Silver Line Button */
-.silver-button {
-  align-items: center;
-  background-color: #919d9D;
-  border: 2px solid #111;
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: #111;
-  cursor: pointer;
-  display: flex;
-  font-family: Inter, sans-serif;
-  font-size: 25px;
-  height: 48px;
-  justify-content: center;
-  line-height: 24px;
-  max-width: 100%;
-  padding: 0 25px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.silver-button:after {
-  background-color: #111;
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 48px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
-  z-index: -1;
-}
-
-.silver-button:hover:after {
-  transform: translate(0, 0);
-}
-
-.silver-button:active {
-  background-color: #ffdeda;
-  outline: 0;
-}
-
-.silver-button:hover {
-  outline: 0;
-}
-
-@media (min-width: 768px) {
-  .silver-button {
-    padding: 0 40px;
-  }
-}
-
 /* Yellow Line Button */
 .yellow-button {
   align-items: center;
@@ -371,6 +310,65 @@ h3 {
 
 @media (min-width: 768px) {
   .yellow-button {
+    padding: 0 40px;
+  }
+}
+
+/* Silver Line Button */
+.silver-button {
+  align-items: center;
+  background-color: #919d9D;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 25px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.silver-button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.silver-button:hover:after {
+  transform: translate(0, 0);
+}
+
+.silver-button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.silver-button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .silver-button {
     padding: 0 40px;
   }
 }
