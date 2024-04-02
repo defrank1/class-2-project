@@ -1,19 +1,27 @@
-$('.button-56').on('click', function() {
+// Each Button is coded below:
+
+$('.yellow-button').on('click', function() {
     $('body').css('background-color', 'gold')
   })
   
-  $('.button-59').on('click', function() {
-    $('body').css('background-color', 'lightcoral')
+  $('.red-button').on('click', function() {
+    $('body').css('background-color', 'crimson')
   })
   
-  $('.button-57').on('click', function() {
-    $('body').css('background-color', 'lightskyblue')
+  $('.blue-button').on('click', function() {
+    $('body').css('background-color', 'dodgerblue')
   })
   
-  $('.button-58').on('click', function() {
-    $('body').css('background-color', 'lightgreen')
+  $('.green-button').on('click', function() {
+    $('body').css('background-color', 'mediumseagreen')
   })
 
-  $('.button-60').on('click', function() {
-    $('body').css('background-color', 'lightorange')
+  $('.silver-button').on('click', function() {
+    $('body').css('background-color', 'lightslategray')
   })
+
+  $('.orange-button').on('click', function() {
+    $('body').css('background-color', 'darkorange')
+  })
+
+  // Any new JSS should be below here:
