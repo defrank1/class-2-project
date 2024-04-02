@@ -1,26 +1,26 @@
 // Each Button is coded below:
 
-$('.red-button').on('click', function () {
+$('.red-button').on('click', function() {
   $('body').css('background-color', 'crimson')
 })
 
-$('.orange-button').on('click', function () {
+$('.orange-button').on('click', function() {
   $('body').css('background-color', 'darkorange')
 })
 
-$('.blue-button').on('click', function () {
+$('.blue-button').on('click', function() {
   $('body').css('background-color', 'dodgerblue')
 })
 
-$('.green-button').on('click', function () {
+$('.green-button').on('click', function() {
   $('body').css('background-color', 'mediumseagreen')
 })
 
-$('.yellow-button').on('click', function () {
+$('.yellow-button').on('click', function() {
   $('body').css('background-color', 'gold')
 })
 
-$('.silver-button').on('click', function () {
+$('.silver-button').on('click', function() {
   $('body').css('background-color', 'lightslategray')
 })
 

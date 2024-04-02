@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Class 2 Example</title>
+    <title>Which WMATA?</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+    <style>
+      .container {
+        display: flex;
+      }
 
-<!-- this is where the headline goes-->
+      .right-column {
+        flex: 1;
+        background-color: lightblue;
+      }
 
-<body>
-    <h1>
+    </style>
+  </head>
+
+  <!-- Left side content that is un-columned-->
+
+  <body>
+    <div>
+
+      <!-- this is where the headline goes-->
+
+      <h1>
         Which WMATA?
-    </h1>
+      </h1>
 
-    <h3>
+      <!-- this is where the "by author" goes-->
+
+      <h3>
         by Andrew DeFrank
-    </h3>
+      </h3>
 
-    <!-- this is where the instruction text goes-->
+      <!-- this is where the instruction goes-->
 
-    <h4>
-
+      <h4>
         Click a color to learn about each Washington metro line!
+      </h4>
+      <div class="container">
+   
+      <div>
+      <!-- These are the different metro line buttons-->
+      <button class="red-button" role="button">Red</button>
+      <button class="orange-button" role="button1">Orange</button>
+      <button class="blue-button" role="button1">Blue</button>
+      <button class="green-button" role="button1">Green</button>
+      <button class="yellow-button" role="button">Yellow</button>
+      <button class="silver-button" role="button1">Silver</button>
+    </div>
 
-    </h4>
+    <!-- Right Column content-->
+      <div class="right-column">
+        <!-- Your content for the new column goes here -->
+        <p>This is the content of the right column.</p>
+      </div>
+    </div>
 
-    <!-- These are the different metro line buttons-->
-    <button class="red-button" role="button">Red</button>
-    <button class="orange-button" role="button1">Orange</button>
-    <button class="blue-button" role="button1">Blue</button>
-    <button class="green-button" role="button1">Green</button>
-    <button class="yellow-button" role="button">Yellow</button>
-    <button class="silver-button" role="button1">Silver</button>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
-</body>
+
+  </body>
 
 </html>
