@@ -4,6 +4,7 @@ $('button').on('click', function () {
   var classList = $(this).attr("class");
   console.log(classList)
 
+  // Red:
   if (classList === 'red-button') {
     service_introduced_year = "1976"
     number_of_stations = "27"
@@ -18,7 +19,7 @@ $('button').on('click', function () {
     $('.distance_in_miles').text(distance_in_miles)
     $('.line_termini').text(line_termini)
   }
-
+  // Orange:
   if (classList === 'orange-button') {
     service_introduced_year = "1978"
     number_of_stations = "26"
@@ -33,7 +34,7 @@ $('button').on('click', function () {
     $('.distance_in_miles').text(distance_in_miles)
     $('.line_termini').text(line_termini)
   }
-
+  // Blue:
   if (classList === 'blue-button') {
     service_introduced_year = "1977"
     number_of_stations = "28"
@@ -49,7 +50,7 @@ $('button').on('click', function () {
     $('.line_termini').text(line_termini)
   }
 
-
+  // Green:
   if (classList === 'green-button') {
     service_introduced_year = "1991"
     number_of_stations = "21"
@@ -64,7 +65,7 @@ $('button').on('click', function () {
     $('.distance_in_miles').text(distance_in_miles)
     $('.line_termini').text(line_termini)
   }
-
+  // Yellow:
   if (classList === 'yellow-button') {
     service_introduced_year = "1983"
     number_of_stations = "13"
@@ -79,7 +80,7 @@ $('button').on('click', function () {
     $('.distance_in_miles').text(distance_in_miles)
     $('.line_termini').text(line_termini)
   }
-
+  // Silver:
   if (classList === 'silver-button') {
     service_introduced_year = "2014"
     number_of_stations = "34"

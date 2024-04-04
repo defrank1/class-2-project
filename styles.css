@@ -1,7 +1,9 @@
+/* the font*/
 * {
   font-family: sans-serif;
 }
-/* Define styles for the buttons individually... all of this? */
+
+/* Define styles for the buttons individually below...*/
 
 /* Red Line Button */
 .red-button {
@@ -373,7 +375,6 @@ h3 {
     padding: 0 40px;
   }
 }
-
 
 /* Define styles for the container and right column */
 .container {
