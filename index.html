@@ -13,7 +13,7 @@
 
         .right-column {
             flex: 1;
-            background-color: lightblue;
+            background-color: transparent;
         }
     </style>
 </head>
@@ -38,14 +38,14 @@
         <!-- this is where the instruction goes-->
 
         <h4>
-            Click a color to learn about each Washington metro line!
+            Click a color to learn key facts about each Washington metro line!
         </h4>
         <!-- HERE we will try to replicate the album artwork example from class-->
 
 
         <div class="container">
 
-            <div class="metro-buttons" data-arist='nirvana'>
+            <div class="metro-buttons">
                 <!-- These are the different metro line buttons-->
                 <button class="red-button" role="button">Red</button>
                 <button class="orange-button" role="button">Orange</button>
@@ -57,8 +57,17 @@
 
             <!-- Right Column content-->
             <div class="right-column">
-                <!-- Your content for the new column goes here -->
-                <p>This is the content of the right column.</p>
+                <!-- Right column content goes here, with blank text indicated -->
+                <p><u><strong>Key Facts</strong></u>
+                    <p />
+                <p><strong>Service Introduced:</strong> <span class="service_introduced">
+                        <!--blank--> </span></p>
+                <p><strong>Number of Stations:</strong> <span class="number_of_stations">
+                        <!--blank--> </span></p>
+                <p><strong>Distance (in miles):</strong> <span class="distance_in_miles">
+                        <!--blank--> </span></p>
+                <p><strong>Termini:</strong> <span class="line_termini">
+                        <!--blank--> </span></p>
             </div>
         </div>
 

@@ -388,8 +388,8 @@ h3 {
 
 .right-column {
   flex: 1;
-  background-color: lightblue;
+  background-color: transparent;
   margin-left: 50px;
-  color: black;
+  color: ;
   font-size: 20px
 }
