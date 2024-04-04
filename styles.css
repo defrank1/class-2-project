@@ -1,12 +1,6 @@
 * {
   font-family: sans-serif;
 }
-
-/* Define styles for the buttons as a whole... none needed? */
-.metro-buttons{
-  
-}
-
 /* Define styles for the buttons individually... all of this? */
 
 /* Red Line Button */
@@ -390,6 +384,6 @@ h3 {
   flex: 1;
   background-color: transparent;
   margin-left: 50px;
-  color: ;
+  color: black;
   font-size: 20px
 }
